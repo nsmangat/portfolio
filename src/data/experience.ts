@@ -1,4 +1,7 @@
 import type { Experience } from "./types";
+import compunnelLogo from "../assets/Compunnel-logo.png";
+import finastraLogo from "../assets/Finastra_Logo.png";
+import tigercatLogo from "../assets/tigercat-logo.png";
 
 export const experience: Experience[] = [
   {
@@ -24,7 +27,6 @@ export const experience: Experience[] = [
       "WordPress",
       "Google Gemini Vision",
     ],
-    // logo: '/logos/company-one.png',
   },
   {
     id: "experience-three",
@@ -40,7 +42,7 @@ export const experience: Experience[] = [
       "Redesigned XML schemas for machine settings and wrote verification scripts to include the new information and ensure relevant XML files follow the schemas",
     ],
     tags: ["Python", ".NET 8/C#", "WPF", "MVVM"],
-    // logo: '/logos/company-one.png',
+    logo: tigercatLogo,
   },
   {
     id: "experience-two",
@@ -64,7 +66,7 @@ export const experience: Experience[] = [
       "Twilio",
       "SendGrid",
     ],
-    // logo: '/logos/company-one.png',
+    logo: compunnelLogo,
   },
   {
     id: "experience-one",
@@ -88,6 +90,6 @@ export const experience: Experience[] = [
       "AWS (Lambda, API Gateway)",
       "WebSockets",
     ],
-    // logo: '/logos/company-one.png',
+    logo: finastraLogo,
   },
 ];
