@@ -1,4 +1,7 @@
 import type { Project } from "./types";
+import bugSnipperDemoVideo from "../assets/projects-bugsnipper.mp4";
+import hotpotDemoVideo from "../assets/projects-hotpot.mp4";
+import isItAIDemoVideo from "../assets/projects-isitai.mp4";
 
 export const projects: Project[] = [
   {
@@ -8,7 +11,7 @@ export const projects: Project[] = [
       "A browser extension that lets anonymous visitors screenshot a region of an organization's website and submit it as a bug report. A dashboard is also built-in and allows the organization to then manage these reports.",
     tags: ["TypeScript", "React", "Tailwind CSS", "Express", "Supabase", "WXT"],
     link: "https://github.com/nsmangat/Bug-Snipper",
-    // image: '/screenshots/project-one.png',
+    video: bugSnipperDemoVideo,
   },
   {
     id: "project-four",
@@ -26,7 +29,7 @@ export const projects: Project[] = [
       "Pollinations.ai",
     ],
     link: "https://github.com/nsmangat/IsItAI",
-    // image: '/screenshots/project-two.png',
+    video: isItAIDemoVideo,
   },
   {
     id: "project-three",
@@ -46,7 +49,7 @@ export const projects: Project[] = [
       "Matplotlib",
     ],
     link: "https://github.com/nsmangat/HotPot-Capstone-Project",
-    // image: '/screenshots/project-three.png',
+    video: hotpotDemoVideo,
   },
   {
     id: "project-two",

@@ -1,7 +1,14 @@
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 import type { Project } from "../data/types";
 
-export function ProjectCard({ name, description, tags, link, image }: Project) {
+export function ProjectCard({
+  name,
+  description,
+  tags,
+  link,
+  image,
+  video,
+}: Project) {
   return (
     <div className="flex flex-col overflow-hidden rounded-lg border border-line bg-surface">
       {image && (
@@ -10,6 +17,19 @@ export function ProjectCard({ name, description, tags, link, image }: Project) {
           alt={`${name} image`}
           className="aspect-video w-full object-cover"
         />
+      )}
+      {video && (
+        <div className="flex justify-center bg-bg">
+          <video
+            src={video}
+            aria-label={`${name} demo`}
+            controls
+            muted
+            playsInline
+            preload="metadata"
+            className="max-h-120 max-w-full"
+          />
+        </div>
       )}
       <div className="flex flex-1 flex-col gap-2 p-6">
         <h3 className="text-lg font-semibold text-ink">{name}</h3>
