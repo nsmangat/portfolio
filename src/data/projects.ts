@@ -65,15 +65,15 @@ export const projects: Project[] = [
       "Beautiful Soup",
     ],
     link: "https://github.com/nsmangat/Price-Scraper",
-    // image: '/screenshots/project-three.png',
+    // image: '/assets/project-two.png',
   },
   {
     id: "project-one",
     name: "EARN Banking System",
     description:
-      "A desktop app to simulate a banking interface to teach the basics of personal banking.",
+      "A desktop app that simulates a banking interface to teach the basics of personal banking.",
     tags: ["C++", "QT", "MySQL", "Windows Sockets"],
     link: "https://github.com/nsmangat/nsmangat-COMP72070-Section1-Group3-EARNBankingSystem",
-    // image: '/screenshots/project-three.png',
+    // image: '/assets/project-one.png',
   },
 ];
